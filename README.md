@@ -101,6 +101,7 @@ class Database {
     String  user        = ""
     String  password    = ""
     String  url         = "jdbc:mysql://127.0.0.1"
+    String  urlSuffix   = ""
     Integer port        = 3306
     String  driver      = "com.mysql.jdbc.Driver"
     String  dialect     = "org.hibernate.dialect.MySQLDialect"
